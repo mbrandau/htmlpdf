@@ -1,0 +1,28 @@
+{
+  "name": "htmlpdf",
+  "version": "0.0.0",
+  "description": "A library that converts HTML to PDF using Headless Chrome (puppeteer)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbrandau/htmlpdf.git"
+  },
+  "keywords": [
+    "html",
+    "pdf",
+    "converter"
+  ],
+  "author": "Maximilian Brandau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mbrandau/htmlpdf/issues"
+  },
+  "homepage": "https://github.com/mbrandau/htmlpdf#readme",
+  "dependencies": {
+    "lodash.defaults": "^4.2.0",
+    "puppeteer": "^1.7.0"
+  }
+}
