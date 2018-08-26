@@ -1,6 +1,6 @@
 # htmlpdf
 
-![npm](https://img.shields.io/npm/v/htmlpdf.svg) ![npm](https://img.shields.io/npm/dt/htmlpdf.svg) ![GitHub](https://img.shields.io/github/license/mbrandau/htmlpdf.svg)
+![npm](https://img.shields.io/npm/v/@mbrandau/htmlpdf.svg) ![npm](https://img.shields.io/npm/dt/@mbrandau/htmlpdf.svg) ![GitHub](https://img.shields.io/github/license/mbrandau/htmlpdf.svg)
 
 A library that converts HTML to PDF using Headless Chrome ([puppeteer](https://github.com/GoogleChrome/puppeteer))
 
@@ -8,14 +8,14 @@ A library that converts HTML to PDF using Headless Chrome ([puppeteer](https://g
 
 ### Installation
 
-`npm install --save htmlpdf`
+`npm install --save @mbrandau/htmlpdf`
 
 ### Usage
 
 The following example creates a PDF file of the index.html file.
 ```js
 const fs = require('fs');
-const htmlPdf = require('htmlpdf');
+const htmlPdf = require('@mbrandau/htmlpdf');
 
 (async () => {
   const options = {
