@@ -1,4 +1,7 @@
 # htmlpdf
+
+![npm](https://img.shields.io/npm/v/htmlpdf.svg) ![npm](https://img.shields.io/npm/dt/htmlpdf.svg) ![GitHub](https://img.shields.io/github/license/mbrandau/htmlpdf.svg)
+
 A library that converts HTML to PDF using Headless Chrome ([puppeteer](https://github.com/GoogleChrome/puppeteer))
 
 ## Gettings started
