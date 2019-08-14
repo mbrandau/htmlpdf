@@ -1,6 +1,6 @@
 {
   "name": "@mbrandau/htmlpdf",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A library that converts HTML to PDF using Headless Chrome (puppeteer)",
   "main": "index.js",
   "scripts": {
