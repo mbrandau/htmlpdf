@@ -23,6 +23,6 @@
   "homepage": "https://github.com/mbrandau/htmlpdf#readme",
   "dependencies": {
     "lodash.defaults": "^4.2.0",
-    "puppeteer": "^1.19.0"
+    "puppeteer": "^14.0.0"
   }
 }
