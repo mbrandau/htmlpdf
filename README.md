@@ -14,15 +14,15 @@ A library that converts HTML to PDF using Headless Chrome ([puppeteer](https://g
 
 The following example creates a PDF file of the index.html file.
 ```js
-const fs = require('fs');
-const htmlPdf = require('@mbrandau/htmlpdf');
+import fs from 'fs';
+import { htmlToPdf } from '@mbrandau/htmlpdf';
 
 (async () => {
   const options = {
-    format: 'Letter'
+    format: 'A4'
   };
 
-  const pdfBuffer = await htmlPdf(fs.readFileSync('index.html'), options);
+  const pdfBuffer = await htmlToPdf(fs.readFileSync('index.html'), options);
   fs.writeFileSync('index.pdf', pdfBuffer); // Write PDF file
 })();
 ```
